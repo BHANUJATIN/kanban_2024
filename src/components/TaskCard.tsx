@@ -4,7 +4,7 @@ import { Id, Task } from "../types";
 import { useSortable } from "@dnd-kit/sortable";
 import { CSS } from "@dnd-kit/utilities";
 import photo from "../icons/Photo.png";
-import AvatarGrp from "../components/AvatarGrp";
+import AvatarGrp from "./AvatarGrp";
 import { ChatBubbleLeftEllipsisIcon, PaperClipIcon, HeartIcon } from "@heroicons/react/24/outline";
 
 interface Props {
